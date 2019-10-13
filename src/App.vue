@@ -1,31 +1,57 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <vs-navbar v-model="activeItem" class="nabarx navbar">
+      <div slot="title">
+        <vs-navbar-title class="headerTextFont">Craig R. Albertson</vs-navbar-title>
+      </div>
+
+      <vs-navbar-item class="headerTextFont" index="0">
+        <router-link to="/">Home</router-link>
+      </vs-navbar-item>
+      <vs-navbar-item class="headerTextFont" index="1">
+        <router-link to="/about">About</router-link>
+      </vs-navbar-item>
+      <vs-navbar-item class="headerTextFont" index="2">
+        <router-link to="/projects">Projects</router-link>
+      </vs-navbar-item>
+    </vs-navbar>
+
+    <router-view />
   </div>
 </template>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*https://colorhunt.co/palette/159233*/
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+.navbar {
+  background-color: #5f6769 !important;
+  color: #719192;
+}
+.headerText {
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   text-align: center;
-  color: #2c3e50;
+  color: #719192;
+  font-size: 68px;
 }
-#nav {
-  padding: 30px;
+.headerSubText {
+  font-family: "Josefin Sans", sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  color: #719192;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.headerTextFont {
+  font-family: "Josefin Sans", sans-serif;
+  color: #719192 !important;
 }
 </style>
