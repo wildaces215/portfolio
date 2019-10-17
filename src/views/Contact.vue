@@ -31,7 +31,7 @@
           rows="3"
         ></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn inputBackground">Submit!</button>
     </form>
   </div>
 </template>
@@ -58,5 +58,6 @@ export default {
   background-color: #5f6769 !important;
   border: none;
   color: #dfcdc3 !important;
+  font-family: "Lato", sans-serif !important;
 }
 </style>

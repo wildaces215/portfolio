@@ -15,12 +15,18 @@
         <h1 class="aboutText">About Me</h1>
       </vs-col>
     </vs-row>
-    <vs-row vs-align="center">
-      <vs-col class="aboutTextPara" vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <p>Hello my name is Craig R. Albertson! I am a Web Developer located in New Smyrna Beach, FL!</p>
-        <br />
-      </vs-col>
-    </vs-row>
+
+    <div class="container aboutTextPara">
+      <p
+        class="text-center"
+      >Hello my name is Craig R. Albertson! I am a Software Developer located in New Smyrna Beach, FL!</p>
+      <p
+        class="text-center"
+      >I am currently seeking any and all web development positions. I have experience in the following languages and frameworks:</p>
+      <p
+        class="text-center"
+      >Node.js, C++, Jquery, Vue.js(this site was created with Vue),React.js,Mongodb, and SQL.</p>
+    </div>
   </div>
 </template>
 <script>

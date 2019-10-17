@@ -20,8 +20,13 @@
         <router-link to="/contact">Contact</router-link>
       </vs-navbar-item>
     </vs-navbar>
-
-    <router-view />
+    <transition
+      name="routerAnimation"
+      enter-active-class="animated fadeIn delay-1s"
+      leave-active-class="animated fadeOut fast"
+    >
+      <router-view />
+    </transition>
   </div>
 </template>
 
@@ -84,5 +89,15 @@ export default {
 }
 #paddingTopHeader {
   margin-top: 5px;
+}
+.slide-fade-enter-active {
+  transition: all 0.3s ease;
+}
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>

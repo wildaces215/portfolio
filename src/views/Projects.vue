@@ -31,11 +31,14 @@
             <img class="img-fluid" src="../assets/projects/wiki.png" />
           </a>
         </div>
-        <div class="col-xs-12 col-md-4 text-center"></div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <h1 class="text-center"></h1>
+        </div>
         <div class="col-xs-12 col-md-4 text-center">
           <img class="img-fluid" src />
         </div>
       </div>
+      <h1 class="text-center projectsHeaderText">More coming soon!</h1>
     </div>
   </div>
 </template>

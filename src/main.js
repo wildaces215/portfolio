@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import Vuesax from 'vuesax'
 import VueSwimlane from 'vue-swimlane'
-
+import 'animate.css/animate.css'
 import 'vuesax/dist/vuesax.css' // Vuesax styles
 import 'material-icons/iconfont/material-icons.css'
 
