@@ -18,7 +18,7 @@
             class="swimline"
             rows="1"
             scale="1.5"
-            :words="[ 'Web Developer', 'Graphic Designer','Photographer','Software Developer']"
+            :words="[ 'Web Developer','Software Developer']"
           ></vue-swimlane>
         </h1>
       </vs-col>

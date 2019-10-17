@@ -18,15 +18,29 @@
 
     <div class="container aboutTextPara">
       <p
-        class="text-center"
+        class="text-center aboutTextPara"
       >Hello my name is Craig R. Albertson! I am a Software Developer located in New Smyrna Beach, FL!</p>
       <p
-        class="text-center"
+        class="text-center aboutTextPara"
       >I am currently seeking any and all web development positions. I have experience in the following languages and frameworks:</p>
       <p
-        class="text-center"
+        class="text-center aboutTextPara"
       >Node.js, C++, Jquery, Vue.js(this site was created with Vue),React.js,Mongodb, and SQL.</p>
+      <p
+        class="text-center aboutTextPara"
+      >Here are various link to my Linkedin, Github, and Facebook</p>
     </div>
+    <ul class="list-group">
+      <li>
+        <a href="linkedin.com/in/craig-albertson-3a83b218a">Linkedin</a>
+      </li>
+      <li>
+        <a href="https://www.github.com/wildaces215">Github</a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/craig.albertson.35">Facebook</a>
+      </li>
+    </ul>
   </div>
 </template>
 <script>

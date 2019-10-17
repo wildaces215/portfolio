@@ -1,6 +1,10 @@
 <template>
   <div class="contact">
-    <form class="container formContainer">
+    <form
+      class="container formContainer"
+      action="https://formspree.io/craigalb115@gmail.com"
+      method="POST"
+    >
       <h1 class="text-center formHeaderText">Contact Me!</h1>
       <div class="form-group">
         <label class="formHeaderText" for="exampleInputEmail1">Name</label>
