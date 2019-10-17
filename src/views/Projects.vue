@@ -24,6 +24,7 @@
           </a>
         </div>
       </div>
+      <br />
       <div class="row">
         <div class="col-xs-12 col-md-4 text-center">
           <a href="https://codepen.io/thephoenix215/full/ebraGy">
@@ -47,6 +48,10 @@ export default {
 .projects {
   height: 100vh;
   background-color: #3c4245;
+  overflow: visible;
+  padding-bottom: 50px;
+}
+.container {
 }
 .projectsHeaderText {
   color: #719192 !important;
@@ -55,5 +60,10 @@ export default {
 }
 .img-fluid {
   border-radius: 10px;
+}
+@media only screen and (max-width: 750px) {
+  .projects {
+    height: 200vh;
+  }
 }
 </style>

@@ -16,8 +16,9 @@
       </vs-col>
     </vs-row>
     <vs-row vs-align="center">
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <p class="aboutTextPara">Test</p>
+      <vs-col class="aboutTextPara" vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
+        <p>Hello my name is Craig R. Albertson! I am a Web Developer located in New Smyrna Beach, FL!</p>
+        <br />
       </vs-col>
     </vs-row>
   </div>
@@ -45,5 +46,7 @@
 }
 .aboutTextPara {
   color: #dfcdc3;
+  font-family: "Lato", sans-serif !important;
+  font-size: 1em;
 }
 </style>
