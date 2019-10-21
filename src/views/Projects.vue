@@ -38,7 +38,7 @@
           <img class="img-fluid" src />
         </div>
       </div>
-      <h1 class="text-center projectsHeaderText">More coming soon!</h1>
+      <h1 class="text-center projectsHeaderText"></h1>
     </div>
   </div>
 </template>

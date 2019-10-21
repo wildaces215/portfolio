@@ -30,7 +30,7 @@
         class="text-center aboutTextPara"
       >Here are various link to my Linkedin, Github, and Facebook</p>
     </div>
-    <ul class="list-group">
+    <ul class="list-group text-center aboutTextPara">
       <li>
         <a href="linkedin.com/in/craig-albertson-3a83b218a">Linkedin</a>
       </li>
