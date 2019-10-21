@@ -4,7 +4,7 @@ import sys
 
 def toDirectory():
     os.chdir('dist')
-    file = open("_redirect", 'w+')
+    file = open("_redirects", 'w+')
     file.write('/\t /\n')
     file.write("home\t /home\n")
     file.write("about\t /about\n")
