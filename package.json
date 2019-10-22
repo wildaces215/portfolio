@@ -16,6 +16,7 @@
     "core-js": "^2.6.5",
     "material-icons": "^0.3.1",
     "vue": "^2.6.10",
+    "vue-meta": "^2.3.1",
     "vue-router": "^3.0.3",
     "vue-swimlane": "^0.4.3",
     "vuesax": "^3.10.5",

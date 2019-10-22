@@ -35,7 +35,9 @@
           <h1 class="text-center"></h1>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
-          <img class="img-fluid" src />
+          <a src="https://gifted-bose-41132c.netlify.com/">
+            <img class="img-fluid" src="../assets/projects/Crypto.png" />
+          </a>
         </div>
       </div>
       <h1 class="text-center projectsHeaderText"></h1>
@@ -44,8 +46,8 @@
 </template>
 <script>
 export default {
-  name: 'projects'
-}
+  name: "projects"
+};
 </script>
 <style>
 .projects {
