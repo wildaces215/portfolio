@@ -32,13 +32,13 @@
     </div>
     <ul class="list-group text-center aboutTextPara">
       <li>
-        <a href="linkedin.com/in/craig-albertson-3a83b218a">Linkedin</a>
+        <a class="aboutTextParaLi" href="linkedin.com/in/craig-albertson-3a83b218a">Linkedin</a>
       </li>
       <li>
-        <a href="https://www.github.com/wildaces215">Github</a>
+        <a class="aboutTextParaLi" href="https://www.github.com/wildaces215">Github</a>
       </li>
       <li>
-        <a href="https://www.facebook.com/craig.albertson.35">Facebook</a>
+        <a class="aboutTextParaLi" href="https://www.facebook.com/craig.albertson.35">Facebook</a>
       </li>
     </ul>
   </div>
@@ -49,6 +49,7 @@
 .about {
   background-color: #3c4245;
   height: 100vh;
+  overflow: auto;
 }
 .aboutText {
   font-family: "Josefin Sans", sans-serif;
@@ -68,5 +69,13 @@
   color: #dfcdc3;
   font-family: "Lato", sans-serif !important;
   font-size: 1em;
+}
+.aboutTextParaLi {
+  color: #dfcdc3;
+  font-family: "Lato", sans-serif !important;
+  font-size: 1em;
+}
+.aboutTextParaLi:hover {
+  color: #719192 !important;
 }
 </style>
