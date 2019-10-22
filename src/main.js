@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
@@ -8,15 +9,13 @@ import history from "connect-history-api-fallback";
 import "animate.css/animate.css";
 import "vuesax/dist/vuesax.css"; // Vuesax styles
 import "material-icons/iconfont/material-icons.css";
-import VueAnalytics from "vue-analytics";
+
 import "bootstrap/dist/css/bootstrap.css";
 
 Vue.config.productionTip = false;
 Vue.use(Vuesax);
 Vue.use(VueSwimlane);
-Vue.use(VueAnalytics, {
-  id: "UA-98497114-2"
-});
+
 Vue.use(history);
 new Vue({
   router,
