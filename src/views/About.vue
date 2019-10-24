@@ -48,8 +48,7 @@
 <style>
 .about {
   background-color: #3c4245;
-  height: 100vh;
-  overflow: auto;
+  height: 110vh;
 }
 .aboutText {
   font-family: "Josefin Sans", sans-serif;

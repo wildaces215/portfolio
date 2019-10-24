@@ -1,25 +1,27 @@
 <template>
   <div id="app">
-    <vs-navbar v-model="activeItem" class="nabarx navbar">
-      <div slot="title">
-        <vs-navbar-title id="paddingTopHeader" class="headerTextFont">Craig R. Albertson</vs-navbar-title>
-      </div>
+    <b-navbar class="navbar-custom" toggleable="sm">
+      <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 
-      <vs-navbar-item class="headerTextFont" index="0">
-        <router-link to="/">Home</router-link>
-      </vs-navbar-item>
-      <vs-navbar-item class="headerTextFont" index="1">
-        <router-link to="/about">About</router-link>
-      </vs-navbar-item>
+      <b-navbar-brand class="headerText">Craig R. Albertson</b-navbar-brand>
 
-      <vs-navbar-item class="headerTextFont" index="1">
-        <router-link to="/projects">Projects</router-link>
-      </vs-navbar-item>
-
-      <vs-navbar-item class="headerTextFont" index="1">
-        <router-link to="/contact">Contact</router-link>
-      </vs-navbar-item>
-    </vs-navbar>
+      <b-collapse id="nav-text-collapse" is-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item>
+            <b-link class="headerSubText" to="/">Home</b-link>
+          </b-nav-item>
+          <b-nav-item>
+            <b-link class="headerSubText" to="/about">About</b-link>
+          </b-nav-item>
+          <b-nav-item>
+            <b-link class="headerSubText" to="/projects">Projects</b-link>
+          </b-nav-item>
+          <b-nav-item>
+            <b-link class="headerSubText" to="/contact">Contact</b-link>
+          </b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
     <transition
       name="routerAnimation"
       enter-active-class="animated fadeIn delay-1s"
@@ -32,48 +34,36 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       modalPop: false
-    }
+    };
   }
-}
+};
 </script>
 
 <style>
 /*https://colorhunt.co/palette/159233*/
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
-.navbar {
+.navbar-custom {
   background-color: #5f6769 !important;
-  color: #719192;
+  color: #719192 !important;
 }
 .btn-responsive-line {
   background-color: white !important;
 }
 .headerText {
   font-family: "Josefin Sans", sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  text-align: center;
-  color: #719192;
+
+  color: #719192 !important;
   font-size: 68px;
 }
 .headerSubText {
   font-family: "Josefin Sans", sans-serif;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+
   text-align: center;
-  color: #719192;
-  height: 10px;
+  color: #719192 !important;
 }
 .swimline {
   margin-top: 10px !important;
@@ -99,5 +89,8 @@ export default {
 .slide-fade-enter, .slide-fade-leave-to
 /* .slide-fade-leave-active below version 2.1.8 */ {
   opacity: 0;
+}
+.vs-con-items {
+  font-size: 2em !important;
 }
 </style>
