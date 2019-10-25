@@ -10,11 +10,11 @@
     </vs-row>
     <br />
     <br />
-    <vs-row vs-align="center">
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <h1 class="aboutText">About Me</h1>
-      </vs-col>
-    </vs-row>
+    <row class="row text-center">
+      <div class="container">
+        <h1 class="aboutText text-center">About Me</h1>
+      </div>
+    </row>
 
     <div class="container aboutTextPara">
       <p
@@ -48,7 +48,7 @@
 <style>
 .about {
   background-color: #3c4245;
-  height: 110vh;
+  height: 100vh;
 }
 .aboutText {
   font-family: "Josefin Sans", sans-serif;

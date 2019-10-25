@@ -14,8 +14,8 @@ import BootstrapVue from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
 
 Vue.config.productionTip = false;
-Vue.use(Vuesax);
 Vue.use(VueSwimlane);
+
 Vue.use(BootstrapVue);
 Vue.use(history);
 new Vue({

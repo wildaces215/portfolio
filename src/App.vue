@@ -57,7 +57,7 @@ export default {
   font-family: "Josefin Sans", sans-serif;
 
   color: #719192 !important;
-  font-size: 68px;
+ 
 }
 .headerSubText {
   font-family: "Josefin Sans", sans-serif;
