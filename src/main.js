@@ -7,8 +7,7 @@ import store from "./store";
 import VueSwimlane from "vue-swimlane";
 import history from "connect-history-api-fallback";
 import "animate.css/animate.css";
-import "vuesax/dist/vuesax.css"; // Vuesax styles
-import "material-icons/iconfont/material-icons.css";
+
 import BootstrapVue from "bootstrap-vue";
 
 import "bootstrap/dist/css/bootstrap.css";
