@@ -34,12 +34,12 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       modalPop: false
-    };
+    }
   }
-};
+}
 </script>
 
 <style>
@@ -57,7 +57,7 @@ export default {
   font-family: "Josefin Sans", sans-serif;
 
   color: #719192 !important;
- 
+
 }
 .headerSubText {
   font-family: "Josefin Sans", sans-serif;

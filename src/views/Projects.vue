@@ -46,8 +46,8 @@
 </template>
 <script>
 export default {
-  name: "projects"
-};
+  name: 'projects'
+}
 </script>
 <style>
 .projects {
