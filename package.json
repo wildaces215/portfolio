@@ -12,14 +12,12 @@
     "animate.css": "^3.7.2",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.4",
-    "connect-history-api-fallback": "^1.6.0",
     "core-js": "^2.6.5",
     "material-icons": "^0.3.1",
     "vue": "^2.6.10",
     "vue-meta": "^2.3.1",
     "vue-router": "^3.0.3",
     "vue-swimlane": "^0.4.3",
-    "vuesax": "^3.10.5",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
