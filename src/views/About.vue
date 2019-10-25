@@ -19,13 +19,14 @@
     <div class="container aboutTextPara">
       <p
         class="text-center aboutTextPara"
-      >Hello my name is Craig R. Albertson! I am a Software Developer located in New Smyrna Beach, FL!</p>
+      >Hello my name is Craig R. Albertson! I am a Software and Web Developer located in New Smyrna Beach, FL!</p>
       <p
         class="text-center aboutTextPara"
       >I am currently seeking any and all web development positions. I have experience in the following languages and frameworks:</p>
+      <p class="text-center aboutTextPara">Node.js, C++, Jquery, Vue.js,React.js,Mongodb, and SQL.</p>
       <p
         class="text-center aboutTextPara"
-      >Node.js, C++, Jquery, Vue.js(this site was created with Vue),React.js,Mongodb, and SQL.</p>
+      >In my spare time I run Daytona Devs, a tech group that meets in Daytona Beach Fl.</p>
       <p
         class="text-center aboutTextPara"
       >Here are various link to my Linkedin, Github, and Facebook</p>
@@ -48,7 +49,8 @@
 <style>
 .about {
   background-color: #3c4245;
-  height: 100vh;
+  height: 105vh;
+  overflow-x: hidden;
 }
 .aboutText {
   font-family: "Josefin Sans", sans-serif;
