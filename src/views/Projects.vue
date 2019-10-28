@@ -14,8 +14,8 @@
           </a>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
-          <a href="https://codepen.io/thephoenix215/full/mdbYKJw">
-            <img class="img-fluid" src="../assets/projects/cal.png" />
+          <a href="https://trusting-snyder-18b729.netlify.com/">
+            <img class="img-fluid" src="../assets/random.png" />
           </a>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
@@ -31,13 +31,42 @@
             <img class="img-fluid" src="../assets/projects/wiki.png" />
           </a>
         </div>
+
         <div class="col-xs-12 col-md-4 text-center">
-          <h1 class="text-center"></h1>
+          <a href="https://codepen.io/thephoenix215/full/mdbYKJw">
+            <img class="img-fluid" src="../assets/projects/cal.png" />
+          </a>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
-          <a src="https://gifted-bose-41132c.netlify.com/">
+          <a href="https://gifted-bose-41132c.netlify.com/">
             <img class="img-fluid" src="../assets/projects/Crypto.png" />
           </a>
+        </div>
+      </div>
+      <h1 class="text-center projectsHeaderText">Graphic Design And Photography Work</h1>
+      <br />>
+      <div class="row">
+        <div class="col-xs-12 col-md-4 text-center">
+          <img class="img-fluid" src="../assets/SelfPortrait.jpg" />
+        </div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <img class="img-fluid" src="../assets/PortraitJP.png" />
+        </div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <img class="img-fluid" src="../assets/HeadPortrait.jpg" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-4 text-center">
+          <img class="img-fluid" src="../assets/RasterImageOne.jpg" />
+        </div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <br />
+          <img class="img-fluid" src="../assets/RasterImageTwo.jpg" />
+        </div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <br />
+          <img class="img-fluid" src="../assets/surfingCollage.jpg" />
         </div>
       </div>
       <h1 class="text-center projectsHeaderText"></h1>
@@ -46,12 +75,12 @@
 </template>
 <script>
 export default {
-  name: 'projects'
-}
+  name: "projects"
+};
 </script>
 <style>
 .projects {
-  height: 100vh;
+  height: 230vh;
   background-color: #3c4245;
   overflow: visible;
   padding-bottom: 50px;
