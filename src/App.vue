@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <b-navbar class="navbar-custom" toggleable="sm">
+    <b-navbar class="navbar-custom navbar-dark" toggleable="sm">
       <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 
       <b-navbar-brand class="headerText">Craig R. Albertson</b-navbar-brand>
@@ -34,12 +34,12 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       modalPop: false
-    }
+    };
   }
-}
+};
 </script>
 
 <style>
@@ -50,15 +50,16 @@ export default {
   background-color: #5f6769 !important;
   color: #719192 !important;
 }
-.btn-responsive-line {
-  background-color: white !important;
+span.navbar-toggler {
+  color: white !important;
+  border: none !important;
 }
 .headerText {
   font-family: "Josefin Sans", sans-serif;
 
   color: #719192 !important;
-
 }
+
 .headerSubText {
   font-family: "Josefin Sans", sans-serif;
 
