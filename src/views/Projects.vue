@@ -43,6 +43,15 @@
           </a>
         </div>
       </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-4 text-center">
+          <a href="https://gentle-fortress-86951.herokuapp.com/">
+            <img class="img-fluid" src="../assets/micro.png" />
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-4 text-center"></div>
+        <div class="col-xs-12 col-md-4 text-center"></div>
+      </div>
       <h1 class="text-center projectsHeaderText">Graphic Design And Photography Work</h1>
       <br />>
       <div class="row">
