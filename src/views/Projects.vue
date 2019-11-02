@@ -89,7 +89,7 @@ export default {
 </script>
 <style>
 .projects {
-  height: 230vh;
+  height: 300vh;
   background-color: #3c4245;
   overflow: visible;
   padding-bottom: 50px;
