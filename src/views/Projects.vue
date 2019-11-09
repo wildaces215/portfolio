@@ -52,7 +52,7 @@
         <div class="col-xs-12 col-md-4 text-center"></div>
         <div class="col-xs-12 col-md-4 text-center"></div>
       </div>
-      <!--
+
       <h1 class="text-center projectsHeaderText">Graphic Design And Photography Work</h1>
       <br />>
       <div class="row">
@@ -77,7 +77,7 @@
         <div class="col-xs-12 col-md-4 text-center">
           <br />
           <img class="img-fluid" src="../assets/surfingCollage.jpg" />
-        </div>-->
+        </div>
       </div>
       <h1 class="text-center projectsHeaderText"></h1>
     </div>
