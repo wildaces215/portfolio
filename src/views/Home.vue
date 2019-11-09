@@ -25,7 +25,19 @@
 
 export default {
   name: "home",
-  components: {}
+  components: {},
+  metaInfo: {
+    title: "Home Page",
+    meta: [
+      { "http-equiv": "Content-Type", content: "text/html; charset=utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        name: "description",
+        content:
+          "This is the home page of Craig R. Albertson a Web Devloper located in Volusia County, FL"
+      }
+    ]
+  }
 };
 </script>
 <style>
