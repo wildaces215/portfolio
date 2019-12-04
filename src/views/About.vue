@@ -29,19 +29,11 @@
       >In my spare time I run Daytona Devs, a tech group that meets in Daytona Beach Fl.</p>
       <p
         class="text-center aboutTextPara"
-      >Here are various link to my Linkedin, Github, and Facebook</p>
+      >Here is the link to my Github 
+      <a class="aboutTextParaLi" href="https://www.github.com/wildaces215">Github</a>
+      </p>
     </div>
-    <ul class="list-group text-center aboutTextPara">
-      <li>
-        <a class="aboutTextParaLi" href="linkedin.com/in/craig-albertson-3a83b218a">Linkedin</a>
-      </li>
-      <li>
-        <a class="aboutTextParaLi" href="https://www.github.com/wildaces215">Github</a>
-      </li>
-      <li>
-        <a class="aboutTextParaLi" href="https://www.facebook.com/craig.albertson.35">Facebook</a>
-      </li>
-    </ul>
+    
   </div>
 </template>
 <script>
