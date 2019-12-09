@@ -29,7 +29,7 @@
       >In my spare time I run Daytona Devs, a tech group that meets in Daytona Beach Fl.</p>
       <p
         class="text-center aboutTextPara"
-      >Here is the link to my Github 
+      >Here is the link to my 
       <a class="aboutTextParaLi" href="https://www.github.com/wildaces215">Github</a>
       </p>
     </div>
