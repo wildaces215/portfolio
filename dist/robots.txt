@@ -1,0 +1,8 @@
+User-agent: *
+Allow:
+/
+/about
+/projects
+/contact
+Disallow:
+Sitemap: https://www.my-site.com/sitemap.xml
