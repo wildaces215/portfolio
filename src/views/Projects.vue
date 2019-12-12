@@ -3,22 +3,25 @@
     <h1 class="text-center projectsHeaderText">
       Projects
       <br />
-      <br />Web Projects
+      <br />Software and Web Projects
     </h1>
     <br />
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-4 text-center">
+          <p class="headerSubText">Bargraph with d3.js</p>
           <a href="https://codepen.io/thephoenix215/full/qePaxR">
             <img class="img-fluid" src="../assets/projects/bargraph.png" />
           </a>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
+          <p class="headerSubText">Random Quote Machine</p>
           <a href="https://trusting-snyder-18b729.netlify.com/">
             <img class="img-fluid" src="../assets/random.png" />
           </a>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
+          <p class="headerSubText ">Harborchase</p>
           <a href="https://harborchase.com/">
             <img class="img-fluid" src="../assets/projects/harborchase.jpg" />
           </a>
@@ -27,17 +30,20 @@
       <br />
       <div class="row">
         <div class="col-xs-12 col-md-4 text-center">
+          <p class="headerSubText">Wikiepdia Viewer</p>
           <a href="https://codepen.io/thephoenix215/full/ebraGy">
             <img class="img-fluid" src="../assets/projects/wiki.png" />
           </a>
         </div>
 
         <div class="col-xs-12 col-md-4 text-center">
+          <p class="headerSubText">Javascript Calculator</p>
           <a href="https://codepen.io/thephoenix215/full/mdbYKJw">
             <img class="img-fluid" src="../assets/projects/cal.png" />
           </a>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
+          <p class="headerSubText ">React.js Cryptocurrency Viewer</p>
           <a href="https://gifted-bose-41132c.netlify.com/">
             <img class="img-fluid" src="../assets/projects/Crypto.png" />
           </a>
@@ -45,15 +51,28 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-4 text-center">
+          <p class="headerSubText">Timestamp Api Project</p>
           <a href="https://gentle-fortress-86951.herokuapp.com/">
             <img class="img-fluid" src="../assets/micro.png" />
           </a>
         </div>
-        <div class="col-xs-12 col-md-4 text-center"></div>
-        <div class="col-xs-12 col-md-4 text-center"></div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <p class="headerSubText ">Database Project in C++</p>
+          <a href="https://github.com/wildaces215/CSCIDataStrucutres/">
+            <img class="img-fluid" src="../assets/projects/database.jpeg" />
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <p class="headerSubText ">Daytona Devs website(old)</p>
+          <a href="https://daytonadevs.github.io">
+            <img class="img-fluid" src="../assets/projects/database.jpeg" />
+          </a>
+        </div>
       </div>
 
-      <h1 class="text-center projectsHeaderText">Graphic Design And Photography Work</h1>
+      <h1 class="text-center projectsHeaderText">
+        Graphic Design And Photography Work
+      </h1>
       <br />>
       <div class="row">
         <div class="col-xs-12 col-md-4 text-center">
@@ -79,7 +98,7 @@
           <img class="img-fluid" src="../assets/surfingCollage.jpg" />
         </div>
       </div>
-      <h1 class="text-center projectsHeaderText"></h1>
+      <div class="row"></div>
     </div>
   </div>
 </template>
