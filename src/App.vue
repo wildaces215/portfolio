@@ -11,9 +11,6 @@
             <b-link class="headerSubText" to="/">Home</b-link>
           </b-nav-item>
           <b-nav-item>
-            <b-link class="headerSubText" to="/about">About</b-link>
-          </b-nav-item>
-          <b-nav-item>
             <b-link class="headerSubText" to="/projects">Projects</b-link>
           </b-nav-item>
           <b-nav-item>
