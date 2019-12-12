@@ -65,7 +65,7 @@
         <div class="col-xs-12 col-md-4 text-center">
           <p class="headerSubText ">Daytona Devs website(old)</p>
           <a href="https://daytonadevs.github.io">
-            <img class="img-fluid" src="../assets/projects/database.jpeg" />
+            <img class="img-fluid" src="../assets/projects/daytona.png" />
           </a>
         </div>
       </div>
