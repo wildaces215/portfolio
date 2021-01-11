@@ -2,9 +2,14 @@
   <div class="about">
     <br />
     <vs-row vs-align="center">
-      <vs-col vs-typetype="flex" vs-justify="center" vs-align="center" vs-w="12">
+      <vs-col
+        vs-typetype="flex"
+        vs-justify="center"
+        vs-align="center"
+        vs-w="12"
+      >
         <vs->
-          <img class="img" src="./../assets/headerImage.jpg" />
+          <img class="img" src="./../assets/headPhoto.jpg" />
         </vs->
       </vs-col>
     </vs-row>
@@ -17,23 +22,31 @@
     </row>
 
     <div class="container aboutTextPara">
-      <p
-        class="text-center aboutTextPara"
-      >Hello my name is Craig R. Albertson! I am a Software and Web Developer located in New Smyrna Beach, FL!</p>
-      <p
-        class="text-center aboutTextPara"
-      >I am currently seeking any and all web development positions. I have experience in the following languages and frameworks:</p>
-      <p class="text-center aboutTextPara">Node.js, C++, Jquery, Vue.js,React.js,Mongodb, and SQL.</p>
-      <p
-        class="text-center aboutTextPara"
-      >In my spare time I run Daytona Devs, a tech group that meets in Daytona Beach Fl.</p>
-      <p
-        class="text-center aboutTextPara"
-      >Here is the link to my 
-      <a class="aboutTextParaLi" href="https://www.github.com/wildaces215">Github</a>
+      <p class="text-center aboutTextPara">
+        Hello my name is Craig R. Albertson! I am a Software and Web Developer
+        located in New Smyrna Beach, FL!
+      </p>
+      <p class="text-center aboutTextPara">
+        I have experience in the following languages and frameworks:
+      </p>
+      <p class="text-center aboutTextPara">
+        Node.js, C++, Jquery, Vue.js,React.js,Mongodb, and SQL.
+      </p>
+      <p class="text-center aboutTextPara">
+        Currently my efforts are in learning Dart and Flutter and publishing
+        mobile apps to both Google Play Store and the Apple Ios Store.
+      </p>
+      <p class="text-center aboutTextPara">
+        I am currently open to any and all software engineering or IT jobs as I
+        love learning new things and applying them.
+      </p>
+      <p class="text-center aboutTextPara">
+        Here is the link to my
+        <a class="aboutTextParaLi" href="https://www.github.com/wildaces215"
+          >Github</a
+        >
       </p>
     </div>
-    
   </div>
 </template>
 <script>
@@ -46,10 +59,10 @@ export default {
       {
         name: "description",
         content:
-          "This is the About Page of Craig R. Albertson a Web Devloper located in Volusia County, FL."
-      }
-    ]
-  }
+          "This is the About Page of Craig R. Albertson a Web Devloper located in Volusia County, FL.",
+      },
+    ],
+  },
 };
 </script>
 <style>
@@ -66,6 +79,7 @@ export default {
   font-size: 48px;
 }
 .img {
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
