@@ -1,18 +1,7 @@
 <template>
   <div class="about">
     <br />
-    <vs-row vs-align="center">
-      <vs-col
-        vs-typetype="flex"
-        vs-justify="center"
-        vs-align="center"
-        vs-w="12"
-      >
-        <vs->
-          <img class="img" src="./../assets/headPhoto.jpg" />
-        </vs->
-      </vs-col>
-    </vs-row>
+
     <br />
     <br />
     <row class="row text-center">

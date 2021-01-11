@@ -21,7 +21,7 @@
           </a>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
-          <p class="headerSubText ">Harborchase</p>
+          <p class="headerSubText">Harborchase</p>
           <a href="https://harborchase.com/">
             <img class="img-fluid" src="../assets/projects/harborchase.jpg" />
           </a>
@@ -43,7 +43,7 @@
           </a>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
-          <p class="headerSubText ">React.js Cryptocurrency Viewer</p>
+          <p class="headerSubText">React.js Cryptocurrency Viewer</p>
           <a href="https://gifted-bose-41132c.netlify.com/">
             <img class="img-fluid" src="../assets/projects/Crypto.png" />
           </a>
@@ -57,13 +57,13 @@
           </a>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
-          <p class="headerSubText ">Database Project in C++</p>
+          <p class="headerSubText">Database Project in C++</p>
           <a href="https://github.com/wildaces215/CSCIDataStrucutres/">
             <img class="img-fluid" src="../assets/projects/database.jpeg" />
           </a>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
-          <p class="headerSubText ">Daytona Devs website(old)</p>
+          <p class="headerSubText">Daytona Devs website(old)</p>
           <a href="https://daytonadevs.github.io">
             <img class="img-fluid" src="../assets/projects/daytona.png" />
           </a>
@@ -104,15 +104,24 @@
 </template>
 <script>
 export default {
-  name: "projects"
+  name: "projects",
 };
 </script>
 <style>
+@keyframes scroll {
+  95% {
+    top: -100%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
 .projects {
   height: 300vh;
   background-color: #3c4245;
   overflow: visible;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 .container {
 }
@@ -126,7 +135,7 @@ export default {
 }
 @media only screen and (max-width: 750px) {
   .projects {
-    height: 200vh;
+    height: 700vh;
   }
 }
 </style>

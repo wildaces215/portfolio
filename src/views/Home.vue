@@ -1,22 +1,6 @@
 <template>
   <div class="home">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 marginUpper text-center">
-          <h1 class="headerText">Craig R. Albertson</h1>
-          <br />
-          <h1 class="headerSubText">
-            <vue-swimlane
-              class="swimline text-center"
-              rows="1"
-              scale="1.5"
-              :words="[ 'Web Developer','Software Dev']"
-            ></vue-swimlane>
-          </h1>
-        </div>
-        <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4"></vs-col>
-      </div>
-    </div>
+    <div class="container"></div>
   </div>
 </template>
 
@@ -34,10 +18,10 @@ export default {
       {
         name: "description",
         content:
-          "This is the home page of Craig R. Albertson a Web Devloper located in Volusia County, FL"
-      }
-    ]
-  }
+          "This is the home page of Craig R. Albertson a Web Devloper located in Volusia County, FL",
+      },
+    ],
+  },
 };
 </script>
 <style>
